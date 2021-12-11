@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+*{ box-sizing: border-box;
+}
+
+>>>>>>> 7d03c4a49a672df228b3edb389c08abba0434522
 body{ 
     background-image:url(images/background.gif);
     color: #221811;
