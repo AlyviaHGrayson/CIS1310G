@@ -1,15 +1,16 @@
-<<<<<<< HEAD
-=======
 *{ box-sizing: border-box;
 }
-
->>>>>>> 7d03c4a49a672df228b3edb389c08abba0434522
+h2,h3,h4,p,div,ul,dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
 body{ 
     background-image:url(images/background.gif);
     color: #221811;
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2em 2em 2em;
+    
    
 }
 h1{
@@ -30,6 +31,8 @@ nav{
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
+  float:left;
+
 }
 
 h4{
@@ -47,10 +50,7 @@ footer{
     padding-bottom: 10px;
 } 
 
-img{
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 a:link {
     text-decoration: none; 
    }
@@ -62,6 +62,27 @@ a:link {
     max-width: 1280px;
      min-width: 900px;
 } 
+#heroroad { 
+background-color:#FEF6C2 ;
+background-image: url(images/heroroad.jpg) ;
+background-size:100%;
+height: 250px;
+padding: 0, 0, 0;
+margin-left: 200px;
+
+}
+
+#heromugs{
+    background-image: url(images/heromugs.jpg) ;
+    background-size:100%;
+    height: 250px;
+}
+
+#herogutiar{
+background-image: url(images/heroguitar.jpg) ;
+background-size:100%;
+height: 250px;
+}
 
 .details{
 padding-left: 20%;
